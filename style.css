@@ -1,31 +1,39 @@
+
 body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-
-        form {
-            max-width: 400px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            margin-left: 35%;
-        }
-
-        label {
-            display: block;
-            margin-top: 10px;
-        }
-
-        input, select, button {
-            width: 100%;
-            padding: 8px;
-            margin-top: 4px;
-        }
-
-        .success {
-            color: green;
-        }
-
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
 h1 {
-    margin-left: 35%;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+form {
+    margin-bottom: 30px;
+}
+input, select, button {
+    padding: 8px;
+    margin: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #aaa;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+.actions button {
+    margin: 2px;
 }
